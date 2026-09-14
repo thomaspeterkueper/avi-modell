@@ -6,6 +6,10 @@ AVI untersucht als theoretisches Arbeitsmodell, ob und wie lokale Raten oder Zyk
 
 Der aktuelle Stand ist Grundlagenarbeit. Etablierte Kosmologie, Modellpostulate, mathematische Ableitungen, Interpretationen und falsifizierbare Vorhersagen werden ausdrücklich getrennt geführt. Der globale Arbeitsparameter `Φ(a)` ist dabei kein räumlich propagierendes Feld, sondern ein Kandidat für eine integrierte, historienabhängige Zustandsgröße.
 
+## Aktueller Forschungsstand
+
+Die erste Beobachtungs-Testmatrix liegt unter [`docs/observational-test-matrix-v0.1.md`](docs/observational-test-matrix-v0.1.md). Sie trennt externe kosmologische Datensätze von AVI-spezifischen Tests und hält insbesondere fest, dass integrierte Expansionsbeobachtungen wie Supernovae Unite keinen positiven Test B darstellen.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
