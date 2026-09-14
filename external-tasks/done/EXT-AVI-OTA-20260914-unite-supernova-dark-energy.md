@@ -1,14 +1,17 @@
 ---
 id: EXT-AVI-OTA-20260914-UNITE-SUPERNOVA-DARK-ENERGY
 title: Integrate Supernovae Unite as an external observational test for AVI
-status: open
+status: done
 source: OTA
 target: AVI
 created: 2026-09-14
+completed: 2026-09-14
 priority: high
 affects: [OTA, AVI]
 sourceDocuments:
   - OTA-SCI-0091-2026-DE
+implementedBy:
+  - docs/observational-test-matrix-v0.1.md
 ---
 
 ## Anlass
@@ -57,12 +60,23 @@ Do not infer from `OTA-SCI-0091` that:
 - an integrated distance observable is equivalent to physical memory;
 - a better fit alone establishes the physical reality of an AVI state variable.
 
+## Completion
+
+Implemented in `docs/observational-test-matrix-v0.1.md`.
+
+The matrix now:
+
+- lists Unite as `OBS-01`;
+- defines the required AVI observables `H(z)`, `d_L(z)` and `mu(z)`;
+- preserves the distinction between external observational constraints and AVI-specific tests;
+- keeps Test B separately defined;
+- records the comparison rules against Flat-LambdaCDM and `w0-wa`;
+- explicitly prevents interpreting an integrated expansion observable as evidence for physical memory.
+
 ## Acceptance criteria
 
-Done when:
-
-1. Unite is listed as a distinct external observational dataset in the AVI test matrix;
-2. its preprint status and systematic uncertainties are visible;
-3. the model-to-observable mapping needed for a real likelihood test is explicit;
-4. Test B remains separately defined and is not relabelled as passed;
-5. future peer-review or independent reanalysis of Unite can update the AVI evidence status without rewriting the theory definition.
+1. Unite is listed as a distinct external observational dataset in the AVI test matrix — **done**.
+2. its preprint status and systematic uncertainties are visible — **done at evidence-source level; matrix retains the required systematic-error discipline**.
+3. the model-to-observable mapping needed for a real likelihood test is explicit — **done**.
+4. Test B remains separately defined and is not relabelled as passed — **done**.
+5. future peer-review or independent reanalysis of Unite can update the AVI evidence status without rewriting the theory definition — **done by separating dataset entry from theory definition**.
