@@ -8,9 +8,11 @@ Der aktuelle Stand ist Grundlagenarbeit. Etablierte Kosmologie, Modellpostulate,
 
 ## Aktueller Forschungsstand
 
-Die erste Beobachtungs-Testmatrix liegt unter [`docs/observational-test-matrix-v0.1.md`](docs/observational-test-matrix-v0.1.md). Sie trennt externe kosmologische Datensätze von AVI-spezifischen Tests und hält insbesondere fest, dass integrierte Expansionsbeobachtungen wie Supernovae Unite keinen positiven Test B darstellen.
+Die Beobachtungs-Testmatrix liegt unter [`docs/observational-test-matrix-v0.2.md`](docs/observational-test-matrix-v0.2.md). Sie trennt externe kosmologische Datensätze von AVI-spezifischen Tests und hält insbesondere fest, dass integrierte Expansions- oder Materiehistorien keinen positiven Test B darstellen.
 
-Der [`dynamische Closure-Vertrag v0.1`](docs/dynamical-closure-contract-v0.1.md) definiert die noch fehlende mathematische Brücke von `Z_AVI=(Y,ξ)` über `Φ` und `C` zu tatsächlich berechenbaren Observablen. Er trennt Expansionskopplung, Ratenkopplung und eine kombinierte Variante, ohne bereits eine Daten-fitgetriebene AVI-Dynamik zu postulieren.
+Der [`dynamische Closure-Vertrag v0.1`](docs/dynamical-closure-contract-v0.1.md) definiert die noch fehlende mathematische Brücke von `Z_AVI=(Y,ξ)` über `Φ` und `C` zu tatsächlich berechenbaren Observablen. Er trennt Expansionskopplung, Ratenkopplung und eine kombinierte Variante, ohne bereits eine datenfitgetriebene AVI-Dynamik zu postulieren.
+
+Die [`Kandidatenanalyse für Raten und Observablen v0.1`](docs/rate-observable-candidates-v0.1.md) prüft atomare, nukleare, chemisch-biologische, gravitative und kosmologische Messkanäle. Als erste allgemeine AVI-Observable wird ein dimensionsloses differentielles Ratenverhältnis `O_ij = Γ_i/Γ_j` untersucht; eine konkrete Prozesskopplung wird noch nicht postuliert.
 
 ## Rolle im Ökosystem
 
