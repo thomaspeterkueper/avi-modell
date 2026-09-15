@@ -10,6 +10,8 @@ Der aktuelle Stand ist Grundlagenarbeit. Etablierte Kosmologie, Modellpostulate,
 
 Die erste Beobachtungs-Testmatrix liegt unter [`docs/observational-test-matrix-v0.1.md`](docs/observational-test-matrix-v0.1.md). Sie trennt externe kosmologische Datensätze von AVI-spezifischen Tests und hält insbesondere fest, dass integrierte Expansionsbeobachtungen wie Supernovae Unite keinen positiven Test B darstellen.
 
+Der [`dynamische Closure-Vertrag v0.1`](docs/dynamical-closure-contract-v0.1.md) definiert die noch fehlende mathematische Brücke von `Z_AVI=(Y,ξ)` über `Φ` und `C` zu tatsächlich berechenbaren Observablen. Er trennt Expansionskopplung, Ratenkopplung und eine kombinierte Variante, ohne bereits eine Daten-fitgetriebene AVI-Dynamik zu postulieren.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
