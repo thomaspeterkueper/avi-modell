@@ -1,6 +1,6 @@
-# AVI — Beobachtungs-Testmatrix v0.1
+# AVI — Beobachtungs-Testmatrix v0.2
 
-Stand: 14. September 2026  
+Stand: 15. September 2026  
 Status: Arbeitsdokument / Grundlagenphase
 
 ## Zweck
@@ -21,24 +21,24 @@ Bevor AVI mit realen Daten verglichen werden kann, muss das Modell mindestens ko
 - luminosity distance `d_L(z)`;
 - distance modulus `mu(z)`;
 - gegebenenfalls angular-diameter distance `d_A(z)`;
+- für Struktur-/Materiesonden eine explizite Vorhersage der jeweils benötigten Materie- und Baryonenstatistik;
 - gegebenenfalls eine wohldefinierte Abbildung auf `w_eff(a)` als Vergleichsgröße, ohne `w_eff` an die Stelle der AVI-Dynamik zu setzen.
 
 Die Referenzrechnung muss zunächst das jeweilige Standardmodell reproduzieren, bevor zusätzliche AVI-Freiheitsgrade zugelassen werden.
 
 ## 2. Testmatrix
 
-| ID | Beobachtung / Referenz | Primäre Größe | Rolle für AVI | Bezug zu Test B | Status |
-| --- | --- | --- | --- | --- | --- |
-| OBS-01 | Supernovae Unite / `OTA-SCI-0091-2026-DE` | `mu(z)`, `d_L(z)` | externer Distanz-Rotverschiebungs-Likelihood-Test; schränkt zulässige Expansionshistorien ein | **indirekt / nein als positiver Test** | aufgenommen |
-| OBS-02 | BAO / DESI-Familie | Distanzskalen, `H(z)`-abhängige Größen | unabhängiger geometrischer Expansionskanal; wichtig zur Kreuzprüfung von SNe-basierten Fits | nein | vorgesehen |
-| OBS-03 | CMB / Planck- und Nachfolge-Constraints | frühe Randbedingungen, Geometrie, Materieinhalt | definiert Referenzraum für kosmologische Parameter und frühe Entwicklung | nein | vorgesehen |
-| OBS-04 | lokale `H0`-Bestimmungen | gegenwärtige Expansionsrate | Gegenwartsanker; besonders wichtig für die Definition von `Y(a*)` | nein | vorgesehen |
-| OBS-05 | kosmische Topologie / globale Struktur | globale Randbedingung / Identifikation | Kontrollfall dafür, dass lokale Gegenwartsgrößen globale Information nicht notwendig vollständig bestimmen | **methodisch relevant** | Referenzfall |
-| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B` und ggf. `C_A != C_B` | eigentlicher AVI-spezifischer Kernversuch | **ja** | Grundlagenarbeit |
+| ID | Datensatz / Referenz | Beobachtete Größe | Bereich / Domäne | Benötigte AVI-Observable | Standardreferenz | Likelihood / Kovarianz | Hauptsystematiken | AVI-spezifische Vorhersage? | Bezug zu Test B | Reifegrad |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| OBS-01 | Supernovae Unite / `OTA-SCI-0091-2026-DE` | `mu(z)`, `d_L(z)` | kosmologische Distanz-Rotverschiebungs-Beziehung | `H(z) -> d_L(z) -> mu(z)` | Flat-LambdaCDM; `w0-wa`CDM als Erweiterungsvergleich | publizierter Datenvektor; vollständige öffentliche Analyseprodukte weiter prüfen | Kalibration, Selektion, Host-Mass, Klassifikation, intrinsischer Scatter | nein, externer Constraint | indirekt; kein positiver Test | aufgenommen |
+| OBS-02 | BAO / DESI-Familie | transversale/radiale Distanzskalen, `H(z)`-abhängige Größen | großräumige Struktur / mehrere Rotverschiebungsbins | `H(z)`, `D_M(z)` bzw. surveykonforme Größen | Flat-LambdaCDM | releaseabhängig | Rekonstruktion, Surveyselektion, Fiducial-Cosmology-Abbildung | nein | nein | vorgesehen |
+| OBS-03 | CMB / Planck und Nachfolger | frühe Randbedingungen, Geometrie, Materieinhalt, Leistungsspektren | Rekombination bis heute | konsistente frühe Entwicklung und Transferfunktionen | LambdaCDM | missions-/releaseabhängig | Foregrounds, Kalibration, Modellannahmen | nein | nein | vorgesehen |
+| OBS-04 | lokale `H0`-Bestimmungen | gegenwärtige Expansionsrate | `z ~ 0` | `H(a=1)` plus Kalibrationsabbildung | LambdaCDM-unabhängiger bzw. methodenspezifischer Vergleich | methodenabhängig | Distanzleiter, Standardkerzen/-sirenen, Kalibration | nein | nein; wichtiger Gegenwartsanker für `Y(a*)` | vorgesehen |
+| OBS-05 | kosmische Topologie / globale Struktur | globale Identifikation / Randbedingung | globale Geometrie und CMB/LSS-Signaturen | keine einzelne AVI-Observable; Kontrollvariable für vollständige Definition von `Y` | FLRW mit expliziter Topologie | methodenabhängig | Beobachterposition, Topologieskala, Masken, kosmische Varianz | nein | **methodisch relevant** | Referenzfall |
+| OBS-06 | FRB-Dispersionsmaße / `OTA-SCI-0092-2026-DE` | `DM`, DM-Fluktuationen, baryonische Materieverteilung / Clustering | Sichtlinien über kosmologische Distanzen; publizierte Analyse sensitiv ungefähr auf `k = 0.1–3 h Mpc^-1` und Halos `>= 10^13 M_sun` | Vorhersage für Elektronensäulendichte und deren Statistik aus kosmologischer Materie-/Baryonenentwicklung | Standardkosmologie plus baryonisches Feedbackmodell | publizierte Analyse; öffentliche likelihood-fähige Produkte vor quantitativer AVI-Nutzung prüfen | Host-/lokale DM-Beiträge, IGM-Modellierung, Halo-Gas, Feedback, Selektion/Lokalisierung | nein, unabhängiger Materie-/Baryonenkanal | indirekt; erweitert empirische Bestimmung von `Y`, kein positiver Test | aufgenommen |
+| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B`; daraus messbares `O_A != O_B` | modellabhängig | explizite AVI-Dynamik und Observable `O` | passendes Standardmodell ohne `xi` | erst nach konkreter Observable definierbar | Vollständigkeit von `Y`, versteckte Randbedingungen, Parametertuning | **ja** | **ja** | Grundlagenarbeit |
 
-## 3. Unite: verbindliche Einordnung
-
-`OBS-01` wird als erster konkreter externer Datensatz geführt.
+## 3. OBS-01 Unite: verbindliche Einordnung
 
 Für einen späteren echten Vergleich gelten mindestens diese Regeln:
 
@@ -51,7 +51,26 @@ Für einen späteren echten Vergleich gelten mindestens diese Regeln:
 
 Unite misst eine integrierte Expansionsgeschichte. Daraus folgt keine direkte Evidenz für `xi`, `Phi(a)` oder physikalisches Gedächtnis.
 
-## 4. Definition von Test B
+## 4. OBS-06 FRB: verbindliche Einordnung
+
+`OBS-06` basiert auf dem peer-reviewten Befund aus `OTA-SCI-0092-2026-DE`. FRB-Dispersionsmaße liefern einen physikalisch anderen Beobachtungskanal als SNe, BAO und CMB: Sie reagieren auf die integrierte freie Elektronendichte entlang der Sichtlinie und können dadurch die räumliche Verteilung ionisierter baryonischer Materie und astrophysikalisches Feedback einschränken.
+
+Für AVI ist dies zunächst ein **Constraint auf den empirisch zulässigen Standardzustand und seine Entwicklung**. Der Kanal ist besonders wertvoll, weil eine unzureichende Modellierung baryonischer Rückkopplung in Large-Scale-Structure-Analysen nicht als neue kosmologische Dynamik oder AVI-Effekt fehlinterpretiert werden darf.
+
+Verbindliche Grenze:
+
+> Ein historienintegriertes FRB-Signal ist nicht dasselbe wie physikalische Historienabhängigkeit bei identischem Gegenwartszustand.
+
+Daher gilt:
+
+- keine Evidenz für `xi`;
+- keine Evidenz für `Phi(a)`;
+- kein positiver Test B;
+- aber ein zusätzlicher unabhängiger Kanal zur empirischen Einschränkung dessen, was in `Y` und in der Standardentwicklung bereits erklärt werden muss.
+
+Vor einer quantitativen AVI-Nutzung sind insbesondere Datenprodukte, Kovarianzen, Host-/lokale DM-Beiträge, IGM-/Halo-Gas-Modellierung und Feedbackparameter explizit zu behandeln.
+
+## 5. Definition von Test B
 
 Arbeitsdefinition:
 
@@ -63,43 +82,33 @@ Minimal zu prüfen:
 
 und zugleich
 
-`xi_A(a*) != xi_B(a*)`
+`xi_A(a*) != xi_B(a*)`.
 
-sowie, falls AVI eine beobachtbare Wirkung beansprucht,
+Ein Unterschied nur in einer internen Hilfsgröße genügt nicht. Für einen physikalischen Test muss aus der AVI-Dynamik eine messbare Observable `O` folgen, so dass
 
-`C_A(a*) != C_B(a*)`.
+`O_A(a*) != O_B(a*)`.
 
-Die entscheidende Schwierigkeit liegt in der Definition von `Y`. Globale Topologie, Randbedingungen oder andere Standardinformation dürfen nicht versehentlich aus `Y` herausgelassen und anschließend als AVI-Gedächtnis fehlinterpretiert werden.
+Die entscheidende Schwierigkeit liegt in der Definition von `Y`. Globale Topologie, Randbedingungen, baryonische Zustände oder andere Standardinformation dürfen nicht versehentlich aus `Y` herausgelassen und anschließend als AVI-Gedächtnis fehlinterpretiert werden.
 
-## 5. Kontrollregel für den Zustandsbegriff
+## 6. Kontrollregel für den Zustandsbegriff
 
 Vor jedem Test-B-Kandidaten muss explizit festgelegt werden:
 
 - welche Größen zu `Y` gehören;
 - welche globalen Randbedingungen fixiert sind;
-- welche Freiheitsgrade Standardkosmologie bereits enthält;
+- welche Freiheitsgrade Standardkosmologie und Astrophysik bereits enthalten;
 - welche Information ausschließlich `xi` zugeschrieben wird;
-- ob die beiden Historien empirisch und mathematisch zulässig sind.
+- ob die beiden Historien empirisch und mathematisch zulässig sind;
+- welche konkrete Observable `O` den Unterschied messbar machen soll.
 
-Der kosmische Topologie-Fall dient hier als methodischer Kontrolltyp: identische lokale Geometrie erzwingt nicht automatisch identische globale Struktur. Er ist kein AVI-Mechanismus.
+Der kosmische Topologie-Fall dient als methodischer Kontrolltyp für globale Information. Der FRB-Fall ergänzt ihn auf anderer Ebene: unvollständig modellierte baryonische Materieverteilung darf nicht als zusätzliche fundamentale Zustandsinformation missverstanden werden.
 
-## 6. Nächste Ausbaustufe v0.2
+## 7. Nächste Ausbaustufe
 
-Für v0.2 sollen die vorgesehenen Beobachtungskanäle jeweils eine eigene Zeile mit folgenden Feldern erhalten:
+Die Matrix ist nun strukturell auf die vorgesehenen Felder erweitert. Als nächstes sind `OBS-02` bis `OBS-04` mit konkreten Releases und Datenprodukten zu belegen. Parallel muss der dynamische Closure-Vertrag entscheiden, welche physikalische Observable AVI überhaupt verändert.
 
-- Datensatz / Release;
-- beobachtete Größe;
-- Rotverschiebungsbereich;
-- benötigte AVI-Observable;
-- Standard-Referenzmodell;
-- Likelihood-/Kovarianz-Verfügbarkeit;
-- systematische Hauptunsicherheiten;
-- AVI-spezifische Vorhersage ja/nein;
-- Bezug zu Test B;
-- Reifegrad des Vergleichs.
+Erst wenn die entsprechende AVI-Dynamik diese Observable berechnen kann, beginnt die quantitative Datenphase.
 
-Erst wenn mindestens `H(z)`, `d_L(z)` und `mu(z)` aus einer expliziten AVI-Dynamik berechnet werden können, beginnt die eigentliche quantitative Datenphase.
+## 8. Leitplanke
 
-## 7. Leitplanke
-
-Die Testmatrix dient nicht dazu, aktuelle kosmologische Spannungen nachträglich als AVI-Evidenz zu etikettieren. Sie definiert vielmehr, unter welchen Bedingungen AVI überhaupt mit Beobachtungen vergleichbar und falsifizierbar werden kann.
+Die Testmatrix dient nicht dazu, aktuelle kosmologische Spannungen nachträglich als AVI-Evidenz zu etikettieren. Sie definiert, unter welchen Bedingungen AVI mit unabhängigen Beobachtungskanälen vergleichbar und falsifizierbar wird.
