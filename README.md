@@ -16,6 +16,8 @@ Die [`Kandidatenanalyse für Raten und Observablen v0.1`](docs/rate-observable-c
 
 Die [`physikalische Systemsignatur S_i v0.1`](docs/system-signature-si-v0.1.md) präzisiert, wie verschiedene Prozesse differentiell auf denselben zusätzlichen AVI-Zustand reagieren könnten. `S_i` wird als physikalisch operationalisierbare Sensitivitätsstruktur behandelt. Philosophische Intuitionen aus der Omnizedenz dürfen Fragestellungen motivieren, gelten aber weder als Evidenz noch als Bestandteil der AVI-Gleichungen.
 
+Die [`S_i-Sensitivitätsmatrix v0.1`](docs/si-sensitivity-matrix-v0.1.md) verankert diese Signatur erstmals an realen experimentellen Kanälen: optischen Atomuhren, molekularen Übergängen, nuklearen Langzeitdaten und Äquivalenzprinziptests. Sie trennt ausdrücklich Messpräzision, physikalische Parametergrenzen und erst noch abzuleitende AVI-Grenzen und formuliert den nächsten Schritt als vorab festzulegende minimale Kopplungsfamilie.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
