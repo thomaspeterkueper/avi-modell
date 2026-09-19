@@ -20,6 +20,8 @@ Die [`S_i-Sensitivitätsmatrix v0.1`](docs/si-sensitivity-matrix-v0.1.md) verank
 
 Die [`minimale differentielle Kopplungsfamilie v0.1`](docs/minimal-differential-coupling-v0.1.md) legt diese erste Class-B-Modellstruktur nun vor dem Datenfit fest: `D=λξn`, mit genau einer lokalen Kopplungsamplitude je präregistrierter Signaturrichtung. Common-mode-Anteile fallen aus lokalen Ratenverhältnissen heraus; die noch offene zentrale Aufgabe ist damit die unabhängige Dynamik und Normierung von `ξ`.
 
+Das [`minimale ξ-Dynamikmodell v0.1`](docs/xi-dynamics-v0.1.md) schließt die Historienseite zunächst phänomenologisch über `dξ/dN = κ(s-ξ)`. Damit wird Test B erstmals konstruktiv von einer unterschiedlichen vergangenen Standard-Treiberhistorie über `Δξ` bis zu einem differentiellen Ratenverhältnis formuliert. Offen bleibt bewusst die physikalisch begründete, vor dem Datenfit festzulegende Wahl des dimensionslosen Treibers `s[Y]`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
