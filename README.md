@@ -22,6 +22,8 @@ Die [`minimale differentielle Kopplungsfamilie v0.1`](docs/minimal-differential-
 
 Das [`minimale ξ-Dynamikmodell v0.1`](docs/xi-dynamics-v0.1.md) schließt die Historienseite zunächst phänomenologisch über `dξ/dN = κ(s-ξ)`. Damit wird Test B erstmals konstruktiv von einer unterschiedlichen vergangenen Standard-Treiberhistorie über `Δξ` bis zu einem differentiellen Ratenverhältnis formuliert. Offen bleibt bewusst die physikalisch begründete, vor dem Datenfit festzulegende Wahl des dimensionslosen Treibers `s[Y]`.
 
+Das [`ξ-Treiber-Screening v0.1`](docs/xi-driver-screening-v0.1.md) vergleicht Expansionsrate, Expansionsänderung, Materieanteil, Epochenkontrast, Krümmung und Zustandsraumänderung ohne Anomaliefit. Für die erste explizite Testvariante `AVI-B0.1` wird provisorisch `s=-d ln H_std/dN-3/2` gewählt. Der nächste Gate-Test prüft zuerst, ob damit bei vollständig definiertem Standardzustand überhaupt physikalisch zulässige Historienseparation möglich ist.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
