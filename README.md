@@ -24,6 +24,8 @@ Das [`minimale ξ-Dynamikmodell v0.1`](docs/xi-dynamics-v0.1.md) schließt die H
 
 Das [`ξ-Treiber-Screening v0.1`](docs/xi-driver-screening-v0.1.md) vergleicht Expansionsrate, Expansionsänderung, Materieanteil, Epochenkontrast, Krümmung und Zustandsraumänderung ohne Anomaliefit. Für die erste explizite Testvariante `AVI-B0.1` wird provisorisch `s=-d ln H_std/dN-3/2` gewählt. Der nächste Gate-Test prüft zuerst, ob damit bei vollständig definiertem Standardzustand überhaupt physikalisch zulässige Historienseparation möglich ist.
 
+Das [`Test-B-Determinismus-Gate v0.1`](docs/test-b-determinism-gate-v0.1.md) führt diese Prüfung durch. Ergebnis: `AVI-B0.1` besteht den **strong Test B** in seiner bisherigen Filterform nicht, wenn `Y` ein vollständiger Markov-Zustand der eindeutig lösbaren Standarddynamik ist. Ein Filter über die dadurch rekonstruierbare Standardhistorie erzeugt keinen unabhängigen physikalischen Zustand. Das Dokument trennt deshalb `Test B-weak` von `Test B-strong` und verlangt für die nächste AVI-Stufe eine physikalische Ontologie von `ξ` als echten zusätzlichen, globalen oder nicht-Markovschen Zustand.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
