@@ -28,6 +28,8 @@ Das [`Test-B-Determinismus-Gate v0.1`](docs/test-b-determinism-gate-v0.1.md) fü
 
 Das [`ξ-Ontologie-Screening v0.1`](docs/xi-ontology-screening-v0.1.md) prüft diese drei Wege. Als primärer Forschungszweig wird globale Zustands-/Randinformation weiter untersucht, ohne sie bereits mit `ξ` oder `Φ` gleichzusetzen; nicht-Markovsche Dynamik bleibt Vergleichspfad, ein neuer lokaler Freiheitsgrad Reservepfad. Zugleich wird Test B in `B-F` (fundamentale Zustandsseparation) und `B-G` (globale Kontextseparation) präzisiert.
 
+Das [`Global-Context Gate v0.1`](docs/global-context-gate-v0.1.md) prüft O2 gegen reale QFT-Referenzarchitekturen. Ergebnis: `PASS (architecture only)`. Globale/boundary Daten können über einen definierten Quantenfeldzustand lokale Erwartungswerte beeinflussen; Casimir-Physik und topologieabhängige Feldmoden liefern dafür den Referenzfall. Für AVI fehlen weiterhin ein spezifisches `G_global`, ein physikalischer Träger `Q` und die Herleitung einer differentiellen Ratenkopplung. Test `B-G` verlangt deshalb nun explizit einen vermittelnden Zustand `Q`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
