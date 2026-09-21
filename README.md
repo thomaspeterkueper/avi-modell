@@ -30,6 +30,8 @@ Das [`ξ-Ontologie-Screening v0.1`](docs/xi-ontology-screening-v0.1.md) prüft d
 
 Das [`Global-Context Gate v0.1`](docs/global-context-gate-v0.1.md) prüft O2 gegen reale QFT-Referenzarchitekturen. Ergebnis: `PASS (architecture only)`. Globale/boundary Daten können über einen definierten Quantenfeldzustand lokale Erwartungswerte beeinflussen; Casimir-Physik und topologieabhängige Feldmoden liefern dafür den Referenzfall. Für AVI fehlen weiterhin ein spezifisches `G_global`, ein physikalischer Träger `Q` und die Herleitung einer differentiellen Ratenkopplung. Test `B-G` verlangt deshalb nun explizit einen vermittelnden Zustand `Q`.
 
+Das [`Global Carrier Screening v0.1`](docs/global-carrier-screening-v0.1.md) prüft Quantenzustand, Modenspektrum, renormierten Stress-Energie-Tensor, lokale Korrelations-/Response-Struktur und einen hypothetischen neuen AVI-Zustand. Für Class B wird die lokale Korrelations-/Response-Struktur als stärkster Referenzcarrier priorisiert: `G_global -> quantum state/correlations -> local transition response -> rate ratio`. Ein neuer AVI-Freiheitsgrad wird ausdrücklich nicht eingeführt; zuerst folgt ein Response Gate gegen Standard-QFT.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
