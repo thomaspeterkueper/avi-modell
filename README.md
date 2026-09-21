@@ -26,6 +26,8 @@ Das [`ξ-Treiber-Screening v0.1`](docs/xi-driver-screening-v0.1.md) vergleicht E
 
 Das [`Test-B-Determinismus-Gate v0.1`](docs/test-b-determinism-gate-v0.1.md) führt diese Prüfung durch. Ergebnis: `AVI-B0.1` besteht den **strong Test B** in seiner bisherigen Filterform nicht, wenn `Y` ein vollständiger Markov-Zustand der eindeutig lösbaren Standarddynamik ist. Ein Filter über die dadurch rekonstruierbare Standardhistorie erzeugt keinen unabhängigen physikalischen Zustand. Das Dokument trennt deshalb `Test B-weak` von `Test B-strong` und verlangt für die nächste AVI-Stufe eine physikalische Ontologie von `ξ` als echten zusätzlichen, globalen oder nicht-Markovschen Zustand.
 
+Das [`ξ-Ontologie-Screening v0.1`](docs/xi-ontology-screening-v0.1.md) prüft diese drei Wege. Als primärer Forschungszweig wird globale Zustands-/Randinformation weiter untersucht, ohne sie bereits mit `ξ` oder `Φ` gleichzusetzen; nicht-Markovsche Dynamik bleibt Vergleichspfad, ein neuer lokaler Freiheitsgrad Reservepfad. Zugleich wird Test B in `B-F` (fundamentale Zustandsseparation) und `B-G` (globale Kontextseparation) präzisiert.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
