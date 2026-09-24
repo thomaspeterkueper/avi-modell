@@ -32,6 +32,8 @@ Das [`Global-Context Gate v0.1`](docs/global-context-gate-v0.1.md) prüft O2 geg
 
 Das [`Global Carrier Screening v0.1`](docs/global-carrier-screening-v0.1.md) prüft Quantenzustand, Modenspektrum, renormierten Stress-Energie-Tensor, lokale Korrelations-/Response-Struktur und einen hypothetischen neuen AVI-Zustand. Für Class B wird die lokale Korrelations-/Response-Struktur als stärkster Referenzcarrier priorisiert: `G_global -> quantum state/correlations -> local transition response -> rate ratio`. Ein neuer AVI-Freiheitsgrad wird ausdrücklich nicht eingeführt; zuerst folgt ein Response Gate gegen Standard-QFT.
 
+Das [`QFT Response Gate v0.1`](docs/qft-response-gate-v0.1.md) bestätigt diesen Kanal als **Standard-QFT-Referenz**: global unterschiedliche, lokal klassisch gleiche Konfigurationen können über unterschiedliche Wightman-/Korrelationsstrukturen verschiedene lokale Detektorantworten erzeugen. Damit ist `Q4` kein fehlender AVI-Carrier mehr, sondern Teil des zwingenden Nullmodells. AVI muss einen zusätzlichen, präregistrierten Residualbeitrag relativ zu `QFT+GR` vorhersagen; andernfalls ist O2 als AVI-Mechanismus redundant. Nächster Schritt ist das `Residual-Space Gate`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
