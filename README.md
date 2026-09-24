@@ -34,6 +34,8 @@ Das [`Global Carrier Screening v0.1`](docs/global-carrier-screening-v0.1.md) pr�
 
 Das [`QFT Response Gate v0.1`](docs/qft-response-gate-v0.1.md) bestätigt diesen Kanal als **Standard-QFT-Referenz**: global unterschiedliche, lokal klassisch gleiche Konfigurationen können über unterschiedliche Wightman-/Korrelationsstrukturen verschiedene lokale Detektorantworten erzeugen. Damit ist `Q4` kein fehlender AVI-Carrier mehr, sondern Teil des zwingenden Nullmodells. AVI muss einen zusätzlichen, präregistrierten Residualbeitrag relativ zu `QFT+GR` vorhersagen; andernfalls ist O2 als AVI-Mechanismus redundant. Nächster Schritt ist das `Residual-Space Gate`.
 
+Das [`Residual-Space Gate v0.1`](docs/residual-space-gate-v0.1.md) prüft anschließend, ob nach vollständiger QFT+GR- und Messkanalmodellierung überhaupt ein nicht-zirkulärer Raum für eine zusätzliche AVI-Relation verbleibt. Ergebnis: Ein solcher RS2-Raum ist logisch definierbar, aber bislang fehlt ein unabhängig qualifiziertes `X_global`; Residuen dürfen weder `ξ` noch `Φ` selbst definieren. Zusätzlich wird die aus `OTA-SCI-0093-2026-DE` abgeleitete Regel **Channel-state completeness before history-state inference** verbindlich. Nächster Schritt ist deshalb das `X-global Qualification Gate`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
