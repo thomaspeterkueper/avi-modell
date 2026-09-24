@@ -38,6 +38,8 @@ Das [`Residual-Space Gate v0.1`](docs/residual-space-gate-v0.1.md) findet einen 
 
 Das [`Residual-Space Gate v0.1`](docs/residual-space-gate-v0.1.md) prüft anschließend, ob nach vollständiger QFT+GR- und Messkanalmodellierung überhaupt ein nicht-zirkulärer Raum für eine zusätzliche AVI-Relation verbleibt. Ergebnis: Ein solcher RS2-Raum ist logisch definierbar, aber bislang fehlt ein unabhängig qualifiziertes `X_global`; Residuen dürfen weder `ξ` noch `Φ` selbst definieren. Zusätzlich wird die aus `OTA-SCI-0093-2026-DE` abgeleitete Regel **Channel-state completeness before history-state inference** verbindlich. Nächster Schritt ist deshalb das `X-global Qualification Gate`.
 
+Das [`X-global Qualification Gate v0.1`](docs/x-global-qualification-gate-v0.1.md) prüft Topologie, Randbedingungen/Moden, QFT-Zustand, Expansionsgrößen, integrierte Historie, globale Materiestruktur, Horizontdeskriptoren und eine hypothetische neue globale Invariante. Ergebnis: **Kein derzeit konkret definierbarer Kandidat qualifiziert sich als zusätzlicher AVI-Prädiktor im minimalistischen O2/RS2-Pfad.** Die stärksten globalen Kandidaten sind bereits Bestandteil von QFT+GR; andere benötigen ein neues Kopplungspostulat. O2 wird deshalb als Standard-QFT-Referenz auf `HOLD` gesetzt. Nächster Schritt ist ein `Branch Decision Gate O1/O3`, statt einen undefinierten globalen Parameter einzuführen.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
