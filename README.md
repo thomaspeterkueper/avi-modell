@@ -42,6 +42,8 @@ Das [`Residual-Space Gate v0.1`](docs/residual-space-gate-v0.1.md) prüft anschl
 
 Das [`X-global Qualification Gate v0.1`](docs/x-global-qualification-gate-v0.1.md) prüft Topologie, Randbedingungen/Moden, QFT-Zustand, Expansionsgrößen, integrierte Historie, globale Materiestruktur, Horizontdeskriptoren und eine hypothetische neue globale Invariante. Ergebnis: **Kein derzeit konkret definierbarer Kandidat qualifiziert sich als zusätzlicher AVI-Prädiktor im minimalistischen O2/RS2-Pfad.** Die stärksten globalen Kandidaten sind bereits Bestandteil von QFT+GR; andere benötigen ein neues Kopplungspostulat. O2 wird deshalb als Standard-QFT-Referenz auf `HOLD` gesetzt. Nächster Schritt ist ein `Branch Decision Gate O1/O3`, statt einen undefinierten globalen Parameter einzuführen.
 
+Das [`Branch Decision Gate O1/O3 v0.1`](docs/branch-decision-gate-o1-o3-v0.1.md) trennt nicht-Markovsche Dynamik in einen effektiven Zweig `O3-E` und eine fundamental irreduzible Variante `O3-F`. Entscheidend ist das Markov-Embedding-Gate: Eine Memory-Schreibweise allein erzeugt keine fundamentale Historieninformation. Als nächster aktiver Forschungszweig wird deshalb **O1-minimal** gewählt — nicht als empirische Präferenz, sondern weil ein echter zusätzlicher Zustand die klarste falsifizierbare verbleibende Architektur für `Test B-F` besitzt. `O3-E` bleibt Redundanzkontrolle, `O3-F` auf `HOLD`, O2 QFT+GR-Referenz. Nächster Schritt ist das `Minimal ξ Degree-of-Freedom Gate`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
