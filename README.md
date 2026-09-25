@@ -48,6 +48,8 @@ Das [`Branch Decision Gate O1/O3 v0.1`](docs/branch-decision-gate-o1-o3-v0.1.md)
 
 Das [`Minimal ξ Degree-of-Freedom Gate v0.1`](docs/minimal-xi-degree-of-freedom-gate-v0.1.md) bestimmt die Mindeststruktur eines echten zusätzlichen ξ-Zustands, ohne bereits ein neues Teilchen oder Feld zu postulieren. Ergebnis: **PASS als strukturelle Möglichkeit, FAIL als eigenständige Theorie.** Ein unabhängiges ξ kann `Test B-F` formal ermöglichen, aber die minimalen Realisierungen fallen zunächst in bekannte zusätzliche-Freiheitsgrad-/EFT-Klassen. Ein lokaler Class-B-Effekt benötigt differentielle, operatorabhängige Kopplungen und muss Backreaction sowie Präzisionstests bestehen. Der nächste Engpass ist daher ein `Operator Minimality Gate`: Nur wenn AVI den generischen EFT-Operatorraum durch eine unabhängige Selektionsregel einschränkt, bleibt ein eigenständiger falsifizierbarer Kern.
 
+Das [`Cosmic Birefringence Observation Gate v0.1`](docs/cosmic-birefringence-observation-gate-v0.1.md) nimmt CMB-Polarisationsrotation als neuen, theoriegesperrten Beobachtungskanal `CB-1` auf. Der aktuelle Planck/NPIPE-Wert wird ausschließlich als bedingter Beobachtungsanker geführt, nicht als AVI-Evidenz. Eine AVI-spezifische Vorhersage ist erst zulässig, wenn das Operator-Minimality-Gate unabhängig eine parity-odd Photonenkopplung motiviert; bis dahin gilt `HOLD / theory-gated`.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
