@@ -50,6 +50,8 @@ Das [`Minimal ξ Degree-of-Freedom Gate v0.1`](docs/minimal-xi-degree-of-freedom
 
 Das [`Cosmic Birefringence Observation Gate v0.1`](docs/cosmic-birefringence-observation-gate-v0.1.md) nimmt CMB-Polarisationsrotation als neuen, theoriegesperrten Beobachtungskanal `CB-1` auf. Der aktuelle Planck/NPIPE-Wert wird ausschließlich als bedingter Beobachtungsanker geführt, nicht als AVI-Evidenz. Eine AVI-spezifische Vorhersage ist erst zulässig, wenn das Operator-Minimality-Gate unabhängig eine parity-odd Photonenkopplung motiviert; bis dahin gilt `HOLD / theory-gated`.
 
+Das [`Operator Minimality Gate v0.1`](docs/operator-minimality-gate-v0.1.md) mappt die lokale ξ-Response auf generische EFT-Operatorfamilien und verlangt eine theorieinterne Reduktion `c_a = λ n_a`. Ergebnis: **FAIL als eigenständige AVI-Vorhersage.** Differentielle Class-B-Responses sind prinzipiell formulierbar, aber AVI besitzt bislang keine hergeleitete Selektionsregel für die Operatorrichtung `n_a`; die vorhandene `S_i`-Notation parametrisiert Sensitivität, statt sie fundamental herzuleiten. Zusätzlich gilt nun durch `OTA-SCI-0094-2026-DE`: Residuen dürfen erst nach Marginalisierung über `P(Y,C|D,M)` gebildet werden. Nächster Schritt ist das `Selection-Principle Gate`; bis dahin bleiben Operator-/Anomalie-Fits blockiert.
+
 ## Rolle im Ökosystem
 
 AVI-Modell ist Teil des KUEPER-Ökosystems (Ökosystem-Code `AVI`) und die Vertiefung neben dem groben Überblick auf `thomas-kueper.de` (`/grundlagen/avi`). Beide beschreiben dasselbe kosmologische Modell und müssen inhaltlich zusammenpassen.
