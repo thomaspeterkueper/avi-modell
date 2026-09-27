@@ -109,7 +109,34 @@ Zu C_k gehören je nach Experiment beispielsweise:
 
 Ein nicht modellierter C_k-Beitrag darf nicht in r_k als AVI-Residuum weitergereicht werden.
 
-## 6. Mindestanforderungen an RS2
+## 6. State-Reconstruction-Completeness Gate
+
+Aus `OTA-SCI-0094-2026-DE` folgt zusätzlich zur Kanalvollständigkeit eine zweite Inferenzkontrolle. Der wahre Standardzustand `Y_true` darf nicht mit einer einzelnen rekonstruierten Realisierung gleichgesetzt werden.
+
+Für Daten `D` und Standardmodell `M` gilt vielmehr
+
+    Y_true ~ P(Y | D,M).
+
+Ein operatives Residuum muss daher nach Marginalisierung über zulässige Standardzustände und Kanalzustände definiert werden:
+
+    P(O | D,M)
+      = integral dY dC P(O | Y,C,M) P(Y,C | D,M).
+
+Erst ein Residuum gegenüber dieser posterior-prädiktiven Standardverteilung kann in einen AVI-Residualraum eingehen. Die Differenz zwischen zwei zulässigen Rekonstruktionen `Y_A != Y_B` ist keine zusätzliche Zustandsinformation und kein Test B.
+
+Verbindliche Regel:
+
+> **State-reconstruction completeness before extra-state inference.**
+
+Damit gilt die Reihenfolge
+
+    channel state C
+      -> standard-state posterior P(Y | D,M)
+      -> posterior predictive standard observable
+      -> residual
+      -> erst danach mögliche extra-state hypothesis ξ.
+
+## 7. Mindestanforderungen an RS2
 
 Ein RS2-Kandidat wird nur zugelassen, wenn alle folgenden Bedingungen erfüllt sind:
 
@@ -125,20 +152,20 @@ Ein RS2-Kandidat wird nur zugelassen, wenn alle folgenden Bedingungen erfüllt s
 4. **Mindestens zwei physikalisch verschiedene Kanäle.**
    Ein einzelnes Residuum genügt nicht.
 
-5. **Gemeinsame sparsame Kopplung.**
+6. **Gemeinsame sparsame Kopplung.**
    Kein freies λ_k für jeden Kanal, das beliebige Abweichungen absorbieren kann.
 
-6. **Vorzeichen-/Richtungsstruktur vor Datenfit.**
+7. **Vorzeichen-/Richtungsstruktur vor Datenfit.**
    S_k beziehungsweise ΔS_ij muss unabhängig festgelegt sein.
 
-7. **Nullfall.**
+8. **Nullfall.**
 
        λ = 0 -> QFT+GR.
 
-8. **Falsifikationsbereich.**
+9. **Falsifikationsbereich.**
    Es muss mögliche Daten geben, die die gemeinsame AVI-Struktur verwerfen.
 
-## 7. Minimale präregistrierbare Form
+## 8. Minimale präregistrierbare Form
 
 Als Arbeitsform, nicht als Naturgesetz:
 
@@ -161,7 +188,7 @@ Vorteile:
 
 Diese Form wird erst datenfähig, wenn X_global physikalisch unabhängig definiert ist.
 
-## 8. Kandidaten für X_global
+## 9. Kandidaten für X_global
 
 Derzeit ist **kein AVI-spezifisches X_global etabliert**.
 
@@ -174,7 +201,7 @@ Zulässige Kandidatensuche darf nur Größen betrachten, die:
 
 Topologie, globale Modendaten oder kosmologische Zustandsgrößen dienen zunächst als Kontrollen. Sie werden nicht automatisch zu AVI-Variablen.
 
-## 9. Verhältnis zu ξ und Φ
+## 10. Verhältnis zu ξ und Φ
 
 Nach diesem Gate gelten vorläufig:
 
@@ -190,7 +217,7 @@ ist methodisch vorzuziehen, solange kein unabhängiger Grund für einen zusätzl
 
 Damit wird vermieden, ξ allein zur Rettung der bisherigen AVI-Sprache einzuführen.
 
-## 10. Ergebnis des Gates
+## 11. Ergebnis des Gates
 
 Das logische Ergebnis lautet:
 
@@ -204,7 +231,7 @@ Damit besteht das Residual-Space Gate **nur konditional**:
 
 Dies ist kein Scheitern von AVI. Es verschiebt die Forschungsfrage auf den entscheidenden Punkt: Gibt es überhaupt ein X_global, das außerhalb der bereits vollständigen QFT+GR-Zustandsbeschreibung zusätzliche Vorhersagekraft besitzt?
 
-## 11. Konsequenz für Datenfits
+## 12. Konsequenz für Datenfits
 
 Bis ein X_global-Kandidat das Qualifikationsgate besteht:
 
@@ -215,7 +242,7 @@ Bis ein X_global-Kandidat das Qualifikationsgate besteht:
 
 Zulässig sind Standardmodell-Reproduktionen, Nulltests und Sensitivitätsanalysen.
 
-## 12. Nächster Gate-Test — X-global Qualification
+## 13. Nächster Gate-Test — X-global Qualification
 
 Für jeden Kandidaten X_global sind zu prüfen:
 
@@ -230,7 +257,7 @@ Für jeden Kandidaten X_global sind zu prüfen:
 
 Scheitern alle Kandidaten an Punkt 3, ist O2 als eigenständige AVI-Physik redundant.
 
-## 13. Epistemischer Status
+## 14. Epistemischer Status
 
 - **[R]** QFT+GR liefert bereits global-context-sensitive lokale Response-Kanäle.
 - **[D]** Ein Residuum gegenüber einem unvollständigen Standard- oder Kanalmodell ist keine Evidenz für zusätzliche Physik.
