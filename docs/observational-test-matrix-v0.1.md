@@ -84,7 +84,24 @@ Vor einer AVI-Interpretation einer Differenz zwischen rekonstruierten kosmologis
 
 Insbesondere gilt: Ein Unterschied zwischen zwei rekonstruierten `H0`-Werten oder Distanzkanälen ist weder Evidenz für `xi` noch ein positiver Test B, solange bekannte oder plausible kanalabhängige Zustände die Differenz erklären können.
 
-## 6. Definition von Test B
+
+## 6. OBS-08 TRGB-H0: State-Reconstruction-Completeness
+
+`OBS-08` basiert auf dem Preprint `OTA-SCI-0094-2026-DE`. Die TRGB-Distanzleiter wird gegen 80 zulässige Rekonstruktionen der lokalen Dichte- und Peculiar-Velocity-Felder ausgewertet; die daraus resultierende Feld-zu-Feld-Streuung von H0 ist gegenwärtig größer als mehrere innerhalb einer festgehaltenen Rekonstruktion getestete Modellvarianten.
+
+Für AVI wird deshalb zusätzlich verbindlich:
+
+> **State-reconstruction completeness before extra-state inference.**
+
+Es muss zwischen dem physikalischen Standardzustand `Y_true`, seiner datenbedingten Rekonstruktion `P(Y | D,M)` und einem hypothetischen zusätzlichen Zustand `xi` unterschieden werden. Unterschiedliche zulässige Rekonstruktionen von `Y`, die unterschiedliche H0-Posterioren erzeugen, sind kein Test B.
+
+Eine AVI-Residualanalyse darf erst nach Marginalisierung über relevante Standardzustands- und Kanalunsicherheiten beginnen:
+
+    P(O | D) = integral dY dC P(O | Y,C,M) P(Y,C | D,M).
+
+Damit ergänzt OBS-08 die OBS-07-Regel: OBS-07 kontrolliert unvollständig modellierte **Kanalzustände C**; OBS-08 kontrolliert Unsicherheit über den **Standardzustand Y selbst**.
+
+## 7. Definition von Test B
 
 Arbeitsdefinition:
 
@@ -104,7 +121,7 @@ Ein Unterschied nur in einer internen Hilfsgröße genügt nicht. Für einen phy
 
 Die entscheidende Schwierigkeit liegt in der Definition von `Y`. Globale Topologie, Randbedingungen, baryonische Zustände oder andere Standardinformation dürfen nicht versehentlich aus `Y` herausgelassen und anschließend als AVI-Gedächtnis fehlinterpretiert werden.
 
-## 7. Kontrollregel für den Zustandsbegriff
+## 8. Kontrollregel für den Zustandsbegriff
 
 Vor jedem Test-B-Kandidaten muss explizit festgelegt werden:
 
@@ -114,16 +131,16 @@ Vor jedem Test-B-Kandidaten muss explizit festgelegt werden:
 - welche Information ausschließlich `xi` zugeschrieben wird;
 - ob die beiden Historien empirisch und mathematisch zulässig sind;
 - welche konkrete Observable `O` den Unterschied messbar machen soll;
-- ob alle relevanten Zustände des Beobachtungskanals `C` kontrolliert, modelliert oder marginalisiert wurden.
+- ob alle relevanten Zustände des Beobachtungskanals `C` kontrolliert, modelliert oder marginalisiert wurden;\n- ob Unsicherheit in `Y` selbst als `P(Y | D,M)` marginalisiert wurde, statt sie als zusätzliche ontische Zustandsinformation zu behandeln.
 
 Der kosmische Topologie-Fall dient als methodischer Kontrolltyp für globale Information. Der FRB-Fall ergänzt ihn auf anderer Ebene: unvollständig modellierte baryonische Materieverteilung darf nicht als zusätzliche fundamentale Zustandsinformation missverstanden werden.
 
-## 8. Nächste Ausbaustufe
+## 9. Nächste Ausbaustufe
 
 Die Matrix ist nun strukturell auf die vorgesehenen Felder erweitert. Als nächstes sind `OBS-02` bis `OBS-04` mit konkreten Releases und Datenprodukten zu belegen. Parallel muss der dynamische Closure-Vertrag entscheiden, welche physikalische Observable AVI überhaupt verändert.
 
 Erst wenn die entsprechende AVI-Dynamik diese Observable berechnen kann, beginnt die quantitative Datenphase.
 
-## 9. Leitplanke
+## 10. Leitplanke
 
 Die Testmatrix dient nicht dazu, aktuelle kosmologische Spannungen nachträglich als AVI-Evidenz zu etikettieren. Sie definiert, unter welchen Bedingungen AVI mit unabhängigen Beobachtungskanälen vergleichbar und falsifizierbar wird.
