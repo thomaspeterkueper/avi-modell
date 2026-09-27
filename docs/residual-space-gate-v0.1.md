@@ -149,7 +149,10 @@ Ein RS2-Kandidat wird nur zugelassen, wenn alle folgenden Bedingungen erfüllt s
 3. **Channel-state completeness ist dokumentiert.**
    Relevante C_k sind modelliert, kontrolliert oder marginalisiert.
 
-4. **Mindestens zwei physikalisch verschiedene Kanäle.**
+4. **State-reconstruction completeness ist dokumentiert.**
+   Unsicherheit in `Y` wird als `P(Y | D,M)` propagiert; keine einzelne Rekonstruktion wird unbegründet als `Y_true` behandelt.
+
+5. **Mindestens zwei physikalisch verschiedene Kanäle.**
    Ein einzelnes Residuum genügt nicht.
 
 6. **Gemeinsame sparsame Kopplung.**
