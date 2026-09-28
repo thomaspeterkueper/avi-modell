@@ -37,7 +37,7 @@ Die Referenzrechnung muss zunächst das jeweilige Standardmodell reproduzieren, 
 | OBS-05 | kosmische Topologie / globale Struktur | globale Identifikation / Randbedingung | globale Geometrie und CMB/LSS-Signaturen | keine einzelne AVI-Observable; Kontrollvariable für vollständige Definition von `Y` | FLRW mit expliziter Topologie | methodenabhängig | Beobachterposition, Topologieskala, Masken, kosmische Varianz | nein | **methodisch relevant** | Referenzfall |
 | OBS-06 | FRB-Dispersionsmaße / `OTA-SCI-0092-2026-DE` | `DM`, DM-Fluktuationen, baryonische Materieverteilung / Clustering | Sichtlinien über kosmologische Distanzen; publizierte Analyse sensitiv ungefähr auf `k = 0.1–3 h Mpc^-1` und Halos `>= 10^13 M_sun` | Vorhersage für Elektronensäulendichte und deren Statistik aus kosmologischer Materie-/Baryonenentwicklung | Standardkosmologie plus baryonisches Feedbackmodell | publizierte Analyse; öffentliche likelihood-fähige Produkte vor quantitativer AVI-Nutzung prüfen | Host-/lokale DM-Beiträge, IGM-Modellierung, Halo-Gas, Feedback, Selektion/Lokalisierung | nein, unabhängiger Materie-/Baryonenkanal | indirekt; erweitert empirische Bestimmung von `Y`, kein positiver Test | aufgenommen |
 | OBS-07 | GW-Standard-Sirenen / `OTA-SCI-0093-2026-DE` | `d_L`, Host-Rotverschiebung, daraus `H0` | Gravitationswellen-Kosmologie | `H(z) -> d_L(z)` plus explizites Kanal-/Populationsmodell | Standard-Sirenen-Kosmologie ohne AVI-Zusatzterm | ereignis- und populationsabhängig | Wellenform, Detektorkalibration, Inklination, Lensing, Pekuliargeschwindigkeit, Selektion, Host-Zuordnung, **Sichtlinienbeschleunigung/Umgebung** | nein, unabhängiger Distanzkanal | **methodische Negativkontrolle**; kein positiver Test B | aufgenommen |
-| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B`; daraus messbares `O_A != O_B` | modellabhängig | explizite AVI-Dynamik und Observable `O` | passendes Standardmodell ohne `xi` | erst nach konkreter Observable definierbar | Vollständigkeit von `Y`, versteckte Randbedingungen, Parametertuning | **ja** | **ja** | Grundlagenarbeit |
+| OBS-09 | Orbitaler WEP-Quantentest / `OTA-SCI-0098-2026-DE` | differentielle Freifallbeschleunigung 85Rb/87Rb | Erdorbit / Mikrogravitation | keine AVI-Core-Observable; Präzisions-Nullkanal | GR/WEP | 280 Tage; publizierte Fehleranalyse | Plattformbewegung, Detektion, Detuning, Atominterferometer-Systematik | nein; Nullconstraint | T2/T3 Negativkontrolle | aufgenommen |\n| OBS-10 | Károlyházy-Dekohärenz / `OTA-SCI-0099-2026-DE` | spontane Strahlung / Modellparameter R_K | Niedriguntergrund-Quantenfundamenttest | keine AVI-Core-Observable; Falsifikationsreferenz | QM plus Untergrundmodell | publizierte Bayes-Spektralanalyse | Material-/Emissionsmodell, Untergrund | nein; konkrete Alternativmodellklasse ausgeschlossen | T3/T4 Negativkontrolle | aufgenommen |\n| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B`; daraus messbares `O_A != O_B` | modellabhängig | explizite AVI-Dynamik und Observable `O` | passendes Standardmodell ohne `xi` | erst nach konkreter Observable definierbar | Vollständigkeit von `Y`, versteckte Randbedingungen, Parametertuning | **ja** | **ja** | Grundlagenarbeit |
 
 ## 3. OBS-01 Unite: verbindliche Einordnung
 
@@ -144,3 +144,26 @@ Erst wenn die entsprechende AVI-Dynamik diese Observable berechnen kann, beginnt
 ## 10. Leitplanke
 
 Die Testmatrix dient nicht dazu, aktuelle kosmologische Spannungen nachträglich als AVI-Evidenz zu etikettieren. Sie definiert, unter welchen Bedingungen AVI mit unabhängigen Beobachtungskanälen vergleichbar und falsifizierbar wird.
+
+
+## 11. OBS-09 Orbitaler WEP-Quantentest
+
+Peer-reviewter Nullkanal: 85Rb/87Rb-Atominterferometrie auf der China Space Station, 280 Tage, Testunsicherheit 2.8e-8; Resultat mit keiner WEP-Verletzung vereinbar.
+
+AVI-P: kein T1-T4-Trigger. Der Kanal ist als zukünftiger Constraint relevant, falls eine unabhängig definierte Erweiterung eine kompositions-/isotopenabhängige lokale Gravitationsresponse vorhersagt.
+
+Verbindlich:
+
+> **Precision null channels constrain extensions before they can support them.**
+
+## 12. OBS-10 Károlyházy-/Nicht-Markov-Negativkontrolle
+
+Der peer-reviewte Ausschluss der getesteten generalisierten Károlyházy-Modellklasse (R_K > 4.64 m experimentell versus R_K < 1.98 m aus der modellinternen Lokalisierungsbedingung) ist eine Falsifikationsreferenz.
+
+AVI-P: T3/T4 werden nicht aktiviert, sondern methodisch eingeschränkt.
+
+Verbindlich:
+
+> **Non-Markovianity is not evidence of irreducible AVI retention.**
+
+Eine konkrete Retentions-/Memory-Dynamik muss quantitativ formuliert und experimentell überlebensfähig sein; die bloße Bezeichnung "nicht-Markovsch" trägt keine AVI-Evidenz.
