@@ -37,7 +37,7 @@ Die Referenzrechnung muss zunächst das jeweilige Standardmodell reproduzieren, 
 | OBS-05 | kosmische Topologie / globale Struktur | globale Identifikation / Randbedingung | globale Geometrie und CMB/LSS-Signaturen | keine einzelne AVI-Observable; Kontrollvariable für vollständige Definition von `Y` | FLRW mit expliziter Topologie | methodenabhängig | Beobachterposition, Topologieskala, Masken, kosmische Varianz | nein | **methodisch relevant** | Referenzfall |
 | OBS-06 | FRB-Dispersionsmaße / `OTA-SCI-0092-2026-DE` | `DM`, DM-Fluktuationen, baryonische Materieverteilung / Clustering | Sichtlinien über kosmologische Distanzen; publizierte Analyse sensitiv ungefähr auf `k = 0.1–3 h Mpc^-1` und Halos `>= 10^13 M_sun` | Vorhersage für Elektronensäulendichte und deren Statistik aus kosmologischer Materie-/Baryonenentwicklung | Standardkosmologie plus baryonisches Feedbackmodell | publizierte Analyse; öffentliche likelihood-fähige Produkte vor quantitativer AVI-Nutzung prüfen | Host-/lokale DM-Beiträge, IGM-Modellierung, Halo-Gas, Feedback, Selektion/Lokalisierung | nein, unabhängiger Materie-/Baryonenkanal | indirekt; erweitert empirische Bestimmung von `Y`, kein positiver Test | aufgenommen |
 | OBS-07 | GW-Standard-Sirenen / `OTA-SCI-0093-2026-DE` | `d_L`, Host-Rotverschiebung, daraus `H0` | Gravitationswellen-Kosmologie | `H(z) -> d_L(z)` plus explizites Kanal-/Populationsmodell | Standard-Sirenen-Kosmologie ohne AVI-Zusatzterm | ereignis- und populationsabhängig | Wellenform, Detektorkalibration, Inklination, Lensing, Pekuliargeschwindigkeit, Selektion, Host-Zuordnung, **Sichtlinienbeschleunigung/Umgebung** | nein, unabhängiger Distanzkanal | **methodische Negativkontrolle**; kein positiver Test B | aufgenommen |
-| OBS-09 | Orbitaler WEP-Quantentest / `OTA-SCI-0098-2026-DE` | differentielle Freifallbeschleunigung 85Rb/87Rb | Erdorbit / Mikrogravitation | keine AVI-Core-Observable; Präzisions-Nullkanal | GR/WEP | 280 Tage; publizierte Fehleranalyse | Plattformbewegung, Detektion, Detuning, Atominterferometer-Systematik | nein; Nullconstraint | T2/T3 Negativkontrolle | aufgenommen |\n| OBS-10 | Károlyházy-Dekohärenz / `OTA-SCI-0099-2026-DE` | spontane Strahlung / Modellparameter R_K | Niedriguntergrund-Quantenfundamenttest | keine AVI-Core-Observable; Falsifikationsreferenz | QM plus Untergrundmodell | publizierte Bayes-Spektralanalyse | Material-/Emissionsmodell, Untergrund | nein; konkrete Alternativmodellklasse ausgeschlossen | T3/T4 Negativkontrolle | aufgenommen |\n| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B`; daraus messbares `O_A != O_B` | modellabhängig | explizite AVI-Dynamik und Observable `O` | passendes Standardmodell ohne `xi` | erst nach konkreter Observable definierbar | Vollständigkeit von `Y`, versteckte Randbedingungen, Parametertuning | **ja** | **ja** | Grundlagenarbeit |
+| OBS-09 | Orbitaler WEP-Quantentest / `OTA-SCI-0098-2026-DE` | differentielle Freifallbeschleunigung 85Rb/87Rb | Erdorbit / Mikrogravitation | keine AVI-Core-Observable; Präzisions-Nullkanal | GR/WEP | 280 Tage; publizierte Fehleranalyse | Plattformbewegung, Detektion, Detuning, Atominterferometer-Systematik | nein; Nullconstraint | T2/T3 Negativkontrolle | aufgenommen |\n| OBS-10 | Károlyházy-Dekohärenz / `OTA-SCI-0099-2026-DE` | spontane Strahlung / Modellparameter R_K | Niedriguntergrund-Quantenfundamenttest | keine AVI-Core-Observable; Falsifikationsreferenz | QM plus Untergrundmodell | publizierte Bayes-Spektralanalyse | Material-/Emissionsmodell, Untergrund | nein; konkrete Alternativmodellklasse ausgeschlossen | T3/T4 Negativkontrolle | aufgenommen |\n| OBS-11 | Primordial tidal torque / Galaxienspin / `OTA-SCI-0100-2026-DE` | Richtungs-Korrelation heutiger Galaxienspins mit rekonstruiertem primordialem Gezeitenfeld | kosmologische Strukturentstehung | keine AVI-Core-Observable; Standard-Retention-/IR-1-Kontrolle | Tidal-Torque-Theorie + Standard-Strukturentstehung | Galaxienkinematik + rekonstruierte Anfangsbedingungen | Rekonstruktionsmodell, nichtlineare Entwicklung, Galaxienauswahl, gemeinsame Datenabhängigkeiten | nein; Standard-State-Carrier | T1-T4 Negativkontrolle / IR-1 | aufgenommen |\n| AVI-B | Historienseparation bei gleichem Gegenwartszustand | `Y_A(a*) = Y_B(a*)`, aber `xi_A != xi_B`; daraus messbares `O_A != O_B` | modellabhängig | explizite AVI-Dynamik und Observable `O` | passendes Standardmodell ohne `xi` | erst nach konkreter Observable definierbar | Vollständigkeit von `Y`, versteckte Randbedingungen, Parametertuning | **ja** | **ja** | Grundlagenarbeit |
 
 ## 3. OBS-01 Unite: verbindliche Einordnung
 
@@ -167,3 +167,34 @@ Verbindlich:
 > **Non-Markovianity is not evidence of irreducible AVI retention.**
 
 Eine konkrete Retentions-/Memory-Dynamik muss quantitativ formuliert und experimentell überlebensfähig sein; die bloße Bezeichnung "nicht-Markovsch" trägt keine AVI-Evidenz.
+
+
+## 13. OBS-11 Primordialer Tidal-Torque-Imprint / Galaxienspin
+
+`OBS-11` basiert auf `OTA-SCI-0100-2026-DE`. Die peer-reviewte Nature-Astronomy-Arbeit von Sheng et al. kombiniert heutige Galaxienkinematik mit einer Rekonstruktion des primordialen Dichtefelds und findet einen hochsignifikanten Tidal-Torque-Imprint in heutigen Galaxienspins.
+
+Die AVI-P-Einordnung ist ausdrücklich negativ:
+
+    T1 = NOT TRIGGERED
+    T2 = NOT TRIGGERED
+    T3 = NOT TRIGGERED
+    T4 = NOT TRIGGERED.
+
+Der Standardmechanismus besitzt eine geschlossene Retentionskette:
+
+    primordial tidal field
+      -> standard gravitational torque
+      -> angular momentum / evolved state
+      -> present observable.
+
+Damit ist der Fall eine empirische IR-1-/State-carrier-Kontrolle.
+
+Verbindliche Regeln:
+
+> **Persistent historical correlation is not irreducible history state.**
+
+und
+
+> **History information may survive for cosmological times entirely inside standard state variables and standard dynamics.**
+
+Zusätzlich bleibt die State-Reconstruction-Regel aktiv: Das primordiale Dichtefeld ist rekonstruiert, nicht als unabhängige ontische History-Variable direkt gemessen. Rekonstruktionsunsicherheit und gemeinsame Datenabhängigkeiten müssen vor jedem weitergehenden Closure-/History-Claim modelliert werden.
