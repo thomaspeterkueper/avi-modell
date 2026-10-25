@@ -40,3 +40,9 @@ Uses only Python standard library. JSON is printed to stdout; all noise streams 
 Infer (x0,v0,h0) jointly from observations of x alone; compute full observability matrix rank/conditioning for short/long windows; evaluate noisy recovery with held-out trajectories, noise-model misspecification, and measurement frequency. Also design unobservable negative-control coupling (h absent from v' equation): no hidden-state inference may succeed there without information leakage.
 
 Related: docs/avi-state-completeness-gate-0001.md, docs/avi-noxia-executable-interface-v0.1.md.
+
+## Abbildung / Visualisierung (Rückpflege 2026-10-25)
+
+![avi-observability-gate-0001: BASELINE-Auswertung](figures/avi-observability-gate-0001.svg)
+
+[SVG-Abbildung öffnen](figures/avi-observability-gate-0001.svg). Die Darstellung zeigt synthetische Modellergebnisse aus diesem Protokoll und ist **keine empirische AVI-Evidenz**. Die Achsenskalierung und die numerischen Verfahren sind im Versuchsprotokoll bzw. Versuchsskript angegeben. Diese rückwirkend ergänzte Grafik ist nicht mit einer unabhängigen Modellvalidierung gleichzusetzen.
