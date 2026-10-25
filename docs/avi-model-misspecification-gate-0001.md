@@ -30,3 +30,9 @@ Reproduzierbarkeit: Python, numpy, scipy; least_squares mit begrenzten Parameter
 Vor der Interpretation eines Residuums als AVI-Effekt müssen Referenzmodell-Vollständigkeit, Störgrößen, Messkalibration und Alternativerklärungen geprüft werden. Ein AVI-spezifischer Test verlangt eine unabhängige präregistrierte Kopplungs-/Residualvorhersage gegen QFT+GR, nicht lediglich einen frei fitbaren Zusatz.
 
 Verknüpft mit AVI-OBSERVABILITY-0001/0002 und AVI→NOXIA Executable Interface.
+
+## Abbildung / Visualisierung (Rückpflege 2026-10-25)
+
+![avi-model-misspecification-gate-0001: BASELINE-Auswertung](figures/avi-model-misspecification-gate-0001.svg)
+
+[SVG-Abbildung öffnen](figures/avi-model-misspecification-gate-0001.svg). Die Darstellung zeigt synthetische Modellergebnisse aus diesem Protokoll und ist **keine empirische AVI-Evidenz**. Die Achsenskalierung und die numerischen Verfahren sind im Versuchsprotokoll bzw. Versuchsskript angegeben. Diese rückwirkend ergänzte Grafik ist nicht mit einer unabhängigen Modellvalidierung gleichzusetzen.
