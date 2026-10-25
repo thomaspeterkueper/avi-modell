@@ -35,3 +35,9 @@ Das Skript schreibt avi-robustness-0001-results.json ins aktuelle Arbeitsverzeic
 Analytische Lösung als unabhängige Referenz und Konvergenztabelle; danach Zustandsvollständigkeit/verborgene Variablen und stochastische Störungen. Keine Integration in produktive NOXIA-Simulation ohne gesonderten Review.
 
 Siehe docs/avi-robustness-0001-stoerung-stabilitaet-unbekanntes.md und docs/avi-noxia-executable-interface-v0.1.md.
+
+## Abbildung / Visualisierung (Rückpflege 2026-10-25)
+
+![avi-robustness-0001-experiment-01: BASELINE-Auswertung](figures/avi-robustness-0001-experiment-01.svg)
+
+[SVG-Abbildung öffnen](figures/avi-robustness-0001-experiment-01.svg). Die Darstellung zeigt synthetische Modellergebnisse aus diesem Protokoll und ist **keine empirische AVI-Evidenz**. Die Achsenskalierung und die numerischen Verfahren sind im Versuchsprotokoll bzw. Versuchsskript angegeben. Diese rückwirkend ergänzte Grafik ist nicht mit einer unabhängigen Modellvalidierung gleichzusetzen.
