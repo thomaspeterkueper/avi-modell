@@ -19,3 +19,9 @@ Der Kontrollfall setzt die Kopplung A[1,2]=0; die dritte Spalte der Beobachtungs
 **Nächster Schritt:** unbekannte Parameter und Modellfehlanpassung in getrennten Trainings-/Validierungsfenstern untersuchen; erst danach experimentelle, präregistrierte AVI-Residualhypothese gegen QFT+GR entwickeln.
 
 Reproduktion: `python experiments/avi-observability-gate-0002.py` (numpy).
+
+## Abbildung / Visualisierung (Rückpflege 2026-10-25)
+
+![avi-observability-gate-0002: BASELINE-Auswertung](figures/avi-observability-gate-0002.svg)
+
+[SVG-Abbildung öffnen](figures/avi-observability-gate-0002.svg). Die Darstellung zeigt synthetische Modellergebnisse aus diesem Protokoll und ist **keine empirische AVI-Evidenz**. Die Achsenskalierung und die numerischen Verfahren sind im Versuchsprotokoll bzw. Versuchsskript angegeben. Diese rückwirkend ergänzte Grafik ist nicht mit einer unabhängigen Modellvalidierung gleichzusetzen.
