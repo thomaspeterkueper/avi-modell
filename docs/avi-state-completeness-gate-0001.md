@@ -40,3 +40,9 @@ Output: avi-state-completeness-gate-0001-results.json.
 5. Keine Gleichsetzung von numerischer Demonstration und empirischer Evidenz.
 
 **Nächste Aufgabe:** analytische Kontrolllösung und unabhängige Solverprüfung; dann systematische State-Completeness-Sensitivitätsanalyse mit verrauschten Teilbeobachtungen.
+
+## Abbildung / Visualisierung (Rückpflege 2026-10-25)
+
+![avi-state-completeness-gate-0001: BASELINE-Auswertung](figures/avi-state-completeness-gate-0001.svg)
+
+[SVG-Abbildung öffnen](figures/avi-state-completeness-gate-0001.svg). Die Darstellung zeigt synthetische Modellergebnisse aus diesem Protokoll und ist **keine empirische AVI-Evidenz**. Die Achsenskalierung und die numerischen Verfahren sind im Versuchsprotokoll bzw. Versuchsskript angegeben. Diese rückwirkend ergänzte Grafik ist nicht mit einer unabhängigen Modellvalidierung gleichzusetzen.
