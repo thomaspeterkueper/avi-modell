@@ -1,4 +1,4 @@
-# AVI — Referenzannex Klasse A: dynamische Vakuumenergie und Λ(H,Ḣ)-Reduktionsgate v0.1
+# AVI – Referenzannex Klasse A: dynamische Vakuumenergie und Λ(H,Ḣ)-Reduktionsgate v0.1
 
 **Stand:** 28. November 2026  
 **Status:** Referenzannex zum [`dynamischen Closure-Vertrag v0.1`](dynamical-closure-contract-v0.1.md) §7 und Struktur-Gate zu §9/§10 – keine Kanonänderung, kein Datenfit  
