@@ -95,6 +95,8 @@ Für die nächste Modellentscheidung werden drei Klassen unterschieden.
 
 Dann sind `H(z)`, `d_L(z)`, `d_A(z)` und `mu(z)` direkt berechenbare AVI-Observablen. Diese Klasse ist unmittelbar mit SNe/BAO/CMB vergleichbar, verlangt aber eine konsistente Energie-/Gravitationsinterpretation von `ΔH_AVI`.
 
+*Referenz (28.11.2026):* Etablierte Rahmen für diese Interpretation und das Reduktionsgate zur Test-B-Fähigkeit stehen im [`Referenzannex Klasse A v0.1`](class-a-vacuum-reference-annex-v0.1.md). Die Klassendefinition bleibt unverändert.
+
 ### Klasse B — Ratenkopplung bei unveränderter Hintergrundexpansion
 
 `H(a)=H_std(a)`, während AVI eine andere physikalische Rate `Γ` koppelt:
